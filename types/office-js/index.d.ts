@@ -129221,6 +129221,7 @@ declare namespace PowerPoint {
          *
          * @remarks
          * [Api set: PowerPointApi 1.8]
+         * This method is optimized to export a single slide. Exporting multiple slides can impact performance.
          */
         exportAsBase64(): OfficeExtension.ClientResult<string>;
         /**
